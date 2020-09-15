@@ -1,0 +1,965 @@
+Date time: Tue Sep 15 2020 17:25:29 GMT+0530 (India Standard Time)
+-----------------------
+execPath: /usr/local/bin/node
+-----------------------
+argv: /usr/local/bin/node, /Volumes/DATA/NODE JS/battelwarship/server1.js
+-----------------------
+current directory: /Volumes/DATA/NODE JS/battelwarship
+-----------------------
+env:
+{
+  USER: 'ebitnhp-i1',
+  DISPLAY: '/private/tmp/com.apple.launchd.b1f5UgVFAw/org.macosforge.xquartz:0',
+  LOGNAME: 'ebitnhp-i1',
+  PATH: '/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/local/bin:/opt/local/sbin',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.NvDWjSdoTH/Listeners',
+  HOME: '/Users/ebitnhp-i1',
+  SHELL: '/bin/zsh',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+  TMPDIR: '/var/folders/n8/pnf3qm1509s_n36vp1r44_kh0000gn/T/',
+  XPC_SERVICE_NAME: '0',
+  XPC_FLAGS: '0x0',
+  OLDPWD: '/Volumes/DATA/NODE JS/battelwarship',
+  PWD: '/Volumes/DATA/NODE JS/battelwarship',
+  SHLVL: '1',
+  TERM_PROGRAM: 'vscode',
+  TERM_PROGRAM_VERSION: '1.45.0',
+  LANG: 'en_GB.UTF-8',
+  COLORTERM: 'truecolor',
+  VSCODE_GIT_IPC_HANDLE: '/var/folders/n8/pnf3qm1509s_n36vp1r44_kh0000gn/T/vscode-git-d55633326f.sock',
+  GIT_ASKPASS: '/private/var/folders/n8/pnf3qm1509s_n36vp1r44_kh0000gn/T/AppTranslocation/1E3397A9-BBB1-4890-BB8D-96623F8DB36D/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh',
+  VSCODE_GIT_ASKPASS_NODE: '/private/var/folders/n8/pnf3qm1509s_n36vp1r44_kh0000gn/T/AppTranslocation/1E3397A9-BBB1-4890-BB8D-96623F8DB36D/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)',
+  VSCODE_GIT_ASKPASS_MAIN: '/private/var/folders/n8/pnf3qm1509s_n36vp1r44_kh0000gn/T/AppTranslocation/1E3397A9-BBB1-4890-BB8D-96623F8DB36D/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js',
+  TERM: 'xterm-256color',
+  _: '/usr/local/bin/nodemon'
+}
+-----------------------
+gid: 20
+-----------------------
+uid: 501
+-----------------------
+pid: 8098
+-----------------------
+process title: /usr/local/bin/node
+-----------------------
+uptime (sec): 14.802022934
+-----------------------
+arch: x64
+-----------------------
+versions:
+{
+  node: '12.18.3',
+  v8: '7.8.279.23-node.39',
+  uv: '1.38.0',
+  zlib: '1.2.11',
+  brotli: '1.0.7',
+  ares: '1.16.0',
+  modules: '72',
+  nghttp2: '1.41.0',
+  napi: '6',
+  llhttp: '2.0.4',
+  http_parser: '2.9.3',
+  openssl: '1.1.1g',
+  cldr: '37.0',
+  icu: '67.1',
+  tz: '2019c',
+  unicode: '13.0'
+}
+-----------------------
+memory usage:
+{
+  rss: 45408256,
+  heapTotal: 29052928,
+  heapUsed: 9282440,
+  external: 1485952,
+  arrayBuffers: 38295
+}
+-----------------------
+require.cache:
+/Volumes/DATA/NODE JS/battelwarship/server1.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/express.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/depd/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/depd/lib/compat/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/merge-descriptors/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/application.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/finalhandler/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/debug/src/debug.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/encodeurl/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/escape-html/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/on-finished/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ee-first/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/parseurl/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/statuses/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/statuses/codes.json
+/Volumes/DATA/NODE JS/battelwarship/node_modules/unpipe/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/router/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/router/route.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/array-flatten/array-flatten.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/router/layer.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/path-to-regexp/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/methods/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/utils-merge/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/setprototypeof/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/middleware/init.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/middleware/query.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/qs/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/qs/lib/stringify.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/qs/lib/utils.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/qs/lib/formats.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/qs/lib/parse.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/view.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/utils.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/safe-buffer/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/content-disposition/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/content-type/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/send/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/http-errors/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/inherits/inherits.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/toidentifier/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/destroy/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/etag/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fresh/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mime/mime.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mime/types.json
+/Volumes/DATA/NODE JS/battelwarship/node_modules/send/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/range-parser/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/proxy-addr/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/forwarded/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ipaddr.js/lib/ipaddr.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/request.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/accepts/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/negotiator/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mime-types/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mime-db/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mime-db/db.json
+/Volumes/DATA/NODE JS/battelwarship/node_modules/type-is/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/media-typer/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/express/lib/response.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/cookie-signature/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/cookie/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/vary/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/lib/types/json.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/bytes/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/lib/read.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/raw-body/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/raw-body/node_modules/iconv-lite/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/safer-buffer/safer.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/raw-body/node_modules/iconv-lite/lib/bom-handling.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/raw-body/node_modules/iconv-lite/lib/streams.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/raw-body/node_modules/iconv-lite/lib/extend-node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/node_modules/iconv-lite/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/node_modules/iconv-lite/lib/bom-handling.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/lib/types/raw.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/serve-static/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/lib/types/text.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/body-parser/lib/types/urlencoded.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/engine.io.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/server.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/base64id/lib/base64id.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transports/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transports/polling-xhr.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transports/polling.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transport.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io-parser/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io-parser/lib/utf8.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/has-binary2/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/has-binary2/node_modules/isarray/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/after/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io-parser/lib/keys.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/node_modules/debug/src/common.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transports/polling-jsonp.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/transports/websocket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/lib/socket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/engine.io/node_modules/cookie/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-client/package.json
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/client.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/node_modules/debug/src/common.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/component-emitter/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/binary.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/node_modules/isarray/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-parser/is-buffer.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/node_modules/debug/src/common.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/namespace.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/socket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/parent-namespace.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io-adapter/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/websocket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/permessage-deflate.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/async-limiter/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/buffer-util.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/constants.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/receiver.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/validation.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/sender.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/event-target.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/extension.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/stream.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/ws/lib/websocket-server.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/log4js.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/node_modules/debug/src/common.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/rfdc/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/configuration.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/layouts.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/date-format/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/levels.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/clustering.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/LoggingEvent.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/flatted/cjs/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/adapters.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/console.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/stdout.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/stderr.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/logLevelFilter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/categoryFilter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/noLogFilter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/file.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/RollingFileWriteStream.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/node_modules/debug/src/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/node_modules/debug/src/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/node_modules/debug/src/common.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/node_modules/ms/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/fs/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/universalify/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/graceful-fs/graceful-fs.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/graceful-fs/polyfills.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/graceful-fs/legacy-streams.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/graceful-fs/clone.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/copy-sync/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/copy-sync/copy-sync.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/mkdirs/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/mkdirs/mkdirs.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/mkdirs/win32.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/util/utimes.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/util/stat.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/copy/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/copy/copy.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/path-exists/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/empty/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/remove/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/remove/rimraf.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/file.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/link.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/symlink.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/symlink-paths.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/ensure/symlink-type.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/json/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/json/jsonfile.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/jsonfile/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/json/output-json.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/json/output-json-sync.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/move-sync/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/move-sync/move-sync.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/move/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/move/move.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/fs-extra/lib/output/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/now.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/fileNameFormatter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/fileNameParser.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/moveAndMaybeCompressFile.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/RollingFileStream.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/streamroller/lib/DateRollingFileStream.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/appenders/dateFile.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/categories.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/logger.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/log4js/lib/connect-logger.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/index.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/Server.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/Connection.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/Icelands.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/AttackingPlane.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/alphabet.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/random/random-from-seed.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/build.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/generate.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/random/random-byte.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/nanoid/random.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/nanoid/format.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/is-valid.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/shortid/lib/util/cluster-worker-id.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/Vector.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/LobbyState.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/Player.js
+/Volumes/DATA/NODE JS/battelwarship/Classes/GameLobby.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/crashreporter/lib/crashreporter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mkdirp/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/Connection.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/ConnectionConfig.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/constants/client.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/constants/charsets.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/Protocol.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/Parser.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/PacketHeader.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/bignumber.js/bignumber.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/BufferList.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/ChangeUser.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Sequence.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ComPingPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/EmptyPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/EofPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ErrorPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/Field.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/constants/types.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/FieldPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/OkPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/RowDataPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/constants/errors.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/Timer.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/Auth.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Handshake.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Ping.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Query.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/ResultSet.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/constants/server_status.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/readable.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/_stream_readable.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/process-nextick-args/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/isarray/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/internal/streams/stream.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/core-util-is/lib/util.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/internal/streams/BufferList.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/internal/streams/destroy.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/_stream_writable.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/util-deprecate/node.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/_stream_duplex.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/_stream_transform.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/readable-stream/lib/_stream_passthrough.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Quit.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/sequences/Statistics.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/PacketWriter.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/mysql/lib/protocol/SqlString.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/sqlstring/index.js
+/Volumes/DATA/NODE JS/battelwarship/node_modules/sqlstring/lib/SqlString.js
+-----------------------
+active handle:
+[
+  WriteStream {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: null,
+      ended: false,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    readable: false,
+    _events: [Object: null prototype] {
+      end: [Function: onReadableStreamEnd],
+      error: [Function]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: false,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: null,
+    _server: null,
+    columns: 236,
+    rows: 28,
+    _type: 'tty',
+    fd: 2,
+    _isStdio: true,
+    destroySoon: [Function: destroy],
+    _destroy: [Function: dummyDestroy],
+    [Symbol(asyncId)]: 3,
+    [Symbol(kHandle)]: TTY { [Symbol(owner_symbol)]: [Circular] },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  WriteStream {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: null,
+      ended: false,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    readable: false,
+    _events: [Object: null prototype] { end: [Function: onReadableStreamEnd] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: false,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: null,
+    _server: null,
+    columns: 236,
+    rows: 28,
+    _type: 'tty',
+    fd: 1,
+    _isStdio: true,
+    destroySoon: [Function: destroy],
+    _destroy: [Function: dummyDestroy],
+    [Symbol(asyncId)]: 12,
+    [Symbol(kHandle)]: TTY { [Symbol(owner_symbol)]: [Circular] },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  Server {
+    insecureHTTPParser: undefined,
+    _events: [Object: null prototype] {
+      connection: [Function: connectionListener],
+      close: [Function: bound ],
+      listening: [Function: bound ],
+      upgrade: [Function],
+      request: [Function]
+    },
+    _eventsCount: 5,
+    _maxListeners: undefined,
+    _connections: 2,
+    _handle: TCP {
+      reading: false,
+      onconnection: [Function: onconnection],
+      [Symbol(owner_symbol)]: [Circular]
+    },
+    _usingWorkers: false,
+    _workers: [],
+    _unref: false,
+    allowHalfOpen: true,
+    pauseOnConnect: false,
+    httpAllowHalfOpen: false,
+    timeout: 120000,
+    keepAliveTimeout: 5000,
+    maxHeadersCount: null,
+    headersTimeout: 60000,
+    _connectionKey: '6::::52300',
+    [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+    [Symbol(ServerResponse)]: [Function: ServerResponse],
+    [Symbol(kCapture)]: false,
+    [Symbol(asyncId)]: 15
+  },
+  Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      close: [Function: socketOnClose],
+      data: [Function: socketOnData],
+      error: [Function: socketOnError]
+    },
+    _eventsCount: 5,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      _connectionKey: '6::::52300',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(asyncId)]: 15
+    },
+    _server: Server {
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      _connectionKey: '6::::52300',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(asyncId)]: 15
+    },
+    timeout: 0,
+    parser: null,
+    on: [Function],
+    addListener: [Function],
+    prependListener: [Function: prependListener],
+    _paused: false,
+    _peername: { address: '::ffff:127.0.0.1', family: 'IPv6', port: 64621 },
+    [Symbol(asyncId)]: 20,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular]
+    },
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 555,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 21,
+      [Symbol(triggerId)]: 20
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(websocket)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 1,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: [Receiver],
+      _sender: [Sender],
+      _socket: [Circular],
+      _isServer: true,
+      [Symbol(kCapture)]: false
+    }
+  },
+  Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      close: [Function: socketOnClose],
+      data: [Function: socketOnData],
+      error: [Function: socketOnError]
+    },
+    _eventsCount: 5,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      _connectionKey: '6::::52300',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(asyncId)]: 15
+    },
+    _server: Server {
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      _connectionKey: '6::::52300',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(asyncId)]: 15
+    },
+    timeout: 0,
+    parser: null,
+    on: [Function],
+    addListener: [Function],
+    prependListener: [Function: prependListener],
+    _paused: false,
+    _peername: { address: '::ffff:127.0.0.1', family: 'IPv6', port: 64622 },
+    [Symbol(asyncId)]: 37,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular]
+    },
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 564,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 38,
+      [Symbol(triggerId)]: 37
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(websocket)]: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 1,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: [Receiver],
+      _sender: [Sender],
+      _socket: [Circular],
+      _isServer: true,
+      [Symbol(kCapture)]: false
+    }
+  }
+]
+-----------------------
+active request:
+[]
+-----------------------
+TypeError: Cannot read property 'Connection' of undefined
+    at Socket.<anonymous> (/Volumes/DATA/NODE JS/battelwarship/Classes/Connection.js:595:38)
+    at Socket.emit (events.js:315:20)
+    at /Volumes/DATA/NODE JS/battelwarship/node_modules/socket.io/lib/socket.js:528:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)

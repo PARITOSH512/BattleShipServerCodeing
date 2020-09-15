@@ -1,5 +1,6 @@
 let iceland = require('./Icelands');
 let AttackingPlane = require('./AttackingPlane');
+let LobbyState = require('./LobbyState');
 
 module.exports = class Connection
 {
@@ -254,8 +255,8 @@ module.exports = class Connection
                 let myColor;
                 var numbertemp = new Array();
                 for (let i = 0; i < numbers.length; i++) {
-                   numbertemp.push(numbers[i]);
-                    
+                    numbertemp.push(numbers[i]);
+
                 }
                 console.log(numbertemp);    
                 for (var q = 0; q < server.lobbys[player.lobby_id].Connection.length; q++) {
@@ -290,6 +291,15 @@ module.exports = class Connection
                                 "_id":  server.lobbys[player.lobby_id].Connection[0].player.player_id,
                                 };
                                 AllPlayerData.push(dataplayerone);
+
+                                let LoadLobbystate  = new LobbyState();
+                                LoadLobbystate.playerid = server.lobbys[player.lobby_id].Connection[0].player.player_id;
+                                LoadLobbystate.teamCode = q+1;
+                                LoadLobbystate.color = myColor;
+                                LoadLobbystate.state = "INGAME";
+
+                                server.lobbys[player.lobby_id].LobbyState[q]=LoadLobbystate;
+                                console.log("player data about -=-=>"+LoadLobbystate.playerid);
                         }
                         if (q == 1) 
                         {
@@ -321,6 +331,15 @@ module.exports = class Connection
                                 "_id": server.lobbys[player.lobby_id].Connection[1].player.player_id,
                                 };
                                 AllPlayerData.push(dataplayertwo);
+
+                                let LoadLobbystate  = new LobbyState();
+                                LoadLobbystate.playerid = server.lobbys[player.lobby_id].Connection[1].player.player_id;
+                                LoadLobbystate.teamCode = q+1;
+                                LoadLobbystate.color = myColor;
+                                LoadLobbystate.state = "INGAME";
+
+                                server.lobbys[player.lobby_id].LobbyState[q]=LoadLobbystate;
+                                console.log("player data about -=-=>"+LoadLobbystate.playerid);
                         }
                         if (q == 2 ) 
                         {
@@ -353,6 +372,15 @@ module.exports = class Connection
                                 "_id": server.lobbys[player.lobby_id].Connection[2].player.player_id,
                                 };
                                 AllPlayerData.push(dataplayerthree);
+
+                                let LoadLobbystate  = new LobbyState();
+                                LoadLobbystate.playerid = server.lobbys[player.lobby_id].Connection[2].player.player_id;
+                                LoadLobbystate.teamCode = q+1;
+                                LoadLobbystate.color = myColor;
+                                LoadLobbystate.state = "INGAME";
+
+                                server.lobbys[player.lobby_id].LobbyState[q]=LoadLobbystate;
+                                console.log("player data about -=-=>"+LoadLobbystate.playerid);
                         }
                         if (q == 3) 
                         {
@@ -385,6 +413,15 @@ module.exports = class Connection
                                 "_id": server.lobbys[player.lobby_id].Connection[3].player.player_id,
                                 };
                                 AllPlayerData.push(dataplayerfour);
+
+                                let LoadLobbystate  = new LobbyState();
+                                LoadLobbystate.playerid = server.lobbys[player.lobby_id].Connection[3].player.player_id;
+                                LoadLobbystate.teamCode = q+1;
+                                LoadLobbystate.color = myColor;
+                                LoadLobbystate.state = "INGAME";
+
+                                server.lobbys[player.lobby_id].LobbyState[q]=LoadLobbystate;
+                                console.log("player data about -=-=>"+LoadLobbystate.playerid);
                         }
                     }
 
@@ -399,6 +436,13 @@ module.exports = class Connection
                             };
 
                                 console.log("data1 0 1 2: ♦" ,data1);
+                                
+                                server.lobbys[player.lobby_id].LobbyState.forEach(element =>
+                                    {
+                                        console.log("data"+element.color);
+                                    })
+                                
+                                    console.log("player whole data in the list lenght"+server.lobbys[player.lobby_id].LobbyState.length);
                             
 
                             // socket.to(teams[myCode].socket).emit("startGame", data)
@@ -473,7 +517,6 @@ module.exports = class Connection
         //server.teams[myCode];
     });
 
-
     socket.on("disconnect",function()
     {
         
@@ -523,6 +566,26 @@ module.exports = class Connection
         }
     });
 
+    socket.on("playerleft",function(data)
+    {
+        // let data1 = 
+        // {
+        //     player_id = player.id
+        // } 
+        
+        let id = player.lobby_id;
+        console.log(data.playerid+"player-=-=-=->"+server.lobbys[player.lobby_id].Connection.length);
+        server.lobbys[player.lobby_id].playerleftgame(player.player_id)
+        // let data1 =
+        // {
+        //     playerdata : server.lobbys[player.lobby_id].LobbyState
+        // }
+        //socket.broadcast.emit("playerleft",data1);
+        server.onSwtichLobby(connection,"0");
+        //server.lobbys[player.lobby_id].onLeaveLobby(connection);    
+        server.onCheckConnection(id);
+    });
+    
     socket.on("Getplanedata",function(data)
     {
         var clientisinlobby = false;
@@ -534,8 +597,7 @@ module.exports = class Connection
             if(element.player.plane_id == data.playerid)
             {
                 clientisinlobby = true;
-            }
-            
+            }   
         });
 
         if(clientisinlobby)
@@ -572,6 +634,7 @@ module.exports = class Connection
 
         let DATA =
         {
+            "newLobbystate" : server.lobbys[player.lobby_id].LobbyState,
             "NewPlanedata1":NewPlanedata1
         }
        // server.lobbys[player.lobby_id].Connection[data.playerid].socket.emit("Updateplanedata",DATA);

@@ -1,4 +1,5 @@
 let Connection = require("./Connection");
+let LobbyState = require("./LobbyState");
 module.exports = class GameLobby
 {
     constructor(id)
@@ -9,6 +10,8 @@ module.exports = class GameLobby
         this.Icelands = [];
         this.AttackingPlanes = [];
         this.updateIcelands = false;
+        this.LobbyState = [];
+
     }
     onUpdate()
     {
@@ -31,7 +34,7 @@ module.exports = class GameLobby
     senddata()
     {
         
-        //let gamelobby = this;
+        let lobby = this;
        // gamelobby.updateIcelands = true;
             //console.log("Update data"+this.id+this.updateIcelands);
            // let NewPlanedata  = new Array();
@@ -58,21 +61,15 @@ module.exports = class GameLobby
            // NewPlanedata.push(element.TotalPlane);
             
         });
-
-        var team1 = 
-        {
-            NewPlanedata1
-        }
         var data=
         {
-            //"Newplanedata":NewPlanedata,
             "Newplanedata1":NewPlanedata1,      
         }
         for (let i = 0; i < this.Connection.length; i++) {
-           this.Connection[i].socket.emit("updateiceland" , data);
+            this.Connection[i].socket.emit("updateiceland" , data);
             
         }
-       // console.log(data);
+        console.log(data);
 
     }
 
@@ -106,5 +103,27 @@ module.exports = class GameLobby
             lobby.Connection.splice(index,1);
         }
         console.log("Player to Lobby"+lobby.Connection.length);
+    }
+
+    playerleftgame(id = String)
+    {
+        let lobby = this;
+        lobby.LobbyState.forEach(element =>
+            {
+                if(element.playerid == id)
+                {
+                    console.log("-=-=Find the player-=-=->"+element.playerid);
+                    element.state="LG";
+                }
+            });
+
+            let data = {
+                "newLobbystate" : lobby.LobbyState
+            }
+            for (let i = 0; i < this.Connection.length; i++) {
+                if(this.Connection[i].player.player_id != id)
+                this.Connection[i].socket.emit("playerleft" , data);
+            }
+            
     }
 }

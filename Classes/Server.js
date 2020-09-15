@@ -83,7 +83,7 @@ module.exports = class Server
         if(this.lobbys[lobbyId].Connection.length == 0 && lobbyId !="0")
         {
         delete this.lobbys[lobbyId];
-        console.log("lobby delete");
+        console.log("lobby delete"+lobbyId);
         }
     }
 
